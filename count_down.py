@@ -50,7 +50,7 @@ def run_countdown_gui(deadlines):
     title_bar.bind('<B1-Motion>', drag_window)
 
     # Load and resize the image
-    image_path = r"C:\Users\Ådne\Desktop\GitHub\ExamCountdown\DALL·E 2023-11-08 08.36.38 - A daunting image that conveys urgency and the importance of studying for exams. The scene includes a large, looming clock with hands approaching a dea.png"
+    image_path = r"DALL·E 2023-11-08 08.36.38 - A daunting image that conveys urgency and the importance of studying for exams. The scene includes a large, looming clock with hands approaching a dea.png"
     original_image = Image.open(image_path)
     resized_image = original_image.resize((600, 400), Image.LANCZOS)
     image = ImageTk.PhotoImage(resized_image)
