@@ -77,13 +77,12 @@ def run_countdown_gui(deadlines):
     root.mainloop()
 
 deadlines = {
-    "ITP-prosjekt         |    ": datetime(2023, 11, 16, 17, 0),
-    #"Webteknologi-prosjekt       |    ": datetime(2023, 11, 16, 23, 59),
-    "ITP - Individuell      |    ": datetime(2023, 11, 23, 18, 0),
-    #"Webteknologi Eksamen    |    ": datetime(2023, 11, 29, 9, 0),
-    "Datdig Eksamen    |    ": datetime(2023, 12, 2, 9, 0),
-    #"VMA eksamen    |    ": datetime(2023, 12, 8, 9, 0),
-    "Algdat eksamen    |    ": datetime(2023, 12, 12, 15, 0),
+    "Webteknologi-prosjekt       |    ": datetime(2023, 11, 16, 23, 59),
+    "Exphil flervalg    |    ": datetime(2023, 11, 25, 15, 0),
+    "Webteknologi eksamen    |    ": datetime(2023, 11, 29, 9, 0),
+    "Matte A eksamen    |    ": datetime(2023, 12, 7, 9, 0),
+    "ITGK eksamen    |    ": datetime(2023, 12, 11, 9, 0),
+    "Exphil oppgave    |    ": datetime(2023, 12, 18, 15, 0),
 }
 
 run_countdown_gui(deadlines)
